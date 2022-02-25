@@ -65,6 +65,7 @@ module.exports = {
 // If there is no license, return an empty string
 //function renderLicenseSection(license) {}
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -95,8 +96,6 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
 
-  To clone the repo:
-    git clone ${data.clone}
   
   ---
   ## Usage
@@ -105,25 +104,19 @@ function generateMarkdown(data) {
   ---
   ## License
   License used for this project - ${data.license}
-  * For more information on license types, please see the following websites - 
-  [Choose A License](https://choosealicense.com/)
-  [Open Source Initiative](https://opensource.org/licenses)
+  
+  For more information on the above license and other license types, please see the following websites:  
+  - [Open Source Initiative](https://opensource.org/licenses)
+  - [Choose a License](https://choosealicense.com/)
 
   ---
   ## Contributing
-  To contribute to this application, create a pull request.
-  Guidelines  for creating a pull request:
-  - Fork the repo
-  - Create a feature branch (git checkout -b NAME)
-  - Commit your new feature (git commit -m "Add feature")
-  - Push your branch (git push)
-  - Create a new pull request
-
-  Following a code review, your feature will be merged.
+  To contribute to this application: 
+  ${data.contribution}
 
   ---
   ## Tests
-  ${data.test}
+  ${data.tests}
 
   ---
   ## Credits
@@ -135,8 +128,9 @@ function generateMarkdown(data) {
 
   ---
   ## Questions
-  For questions or issues, please contact:
-  - GitHub Username: ${data.userName}
+  For questions or issues, please contact: 
+  - ${data.questions}
+  - GitHub Username: ${data.username}
   - Email: ${data.email}
 
 
