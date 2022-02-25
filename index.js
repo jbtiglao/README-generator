@@ -37,7 +37,12 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Enter ypur project's description."
+        message: "Enter your project's description."
+    },
+    {
+        type: "input",
+        name: "url",
+        message: "Enter the url of your deployed project."
     },
     {
         type: "input",
@@ -78,7 +83,7 @@ const questions = [
     {
         type: "input",
         name: "questions",
-        message: "For questions or issues, please contact:"
+        message: "Enter the name of person to contact for questions or issues."
     },
     {
         type: "input",
@@ -105,7 +110,7 @@ function writeToFile(fileName, data) {
             console.log(error)
         }
 
-        console.log("Your README file is generated!")
+        console.log("All done! Your README file is generated!")
     });
 }
 
