@@ -1,7 +1,11 @@
-// TODO: Include packages needed for this application
+// TODO: Include packages needed for this application 
+// External packages
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+
+// Internal modules
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 //GIVEN a command-line application that accepts user input
 //WHEN I am prompted for information about my application repository
@@ -21,7 +25,11 @@ const util = require("util");
 
 
 // TODO: Create an array of questions for user input
-const questions = [{
+// Questions must be about the project title, description, installation, usage, contribution guidelines, tests, license, and instructions for additional questions or reporting issues
+// Questions for the Questions section must ask for author's GitHub username and email address, and includes a link to author's GitHub profile
+
+const questions = [
+    {
         type: "input",
         name: "title",
         message: "What is the title of your project?"
@@ -29,12 +37,12 @@ const questions = [{
     {
         type: "input",
         name: "description",
-        message: "Enter a description of your project."
+        message: "Enter ypur project's description."
     },
     {
         type: "input",
         name: "installation",
-        message: "What are the steps required to install your project?"
+        message: "Enter instructions for installing your project."
     },
     {
         type: "input",
@@ -45,7 +53,7 @@ const questions = [{
         type: "checkbox",
         name: "license",
         message: "Select license.",
-        choices: ["AFL-3.0", "Apache", "Artistic", "BSL", "BSD", "CC", "MIT", "GNU"]
+        choices: ["Apache", "BSD 3", "BSD 2", "MIT", "GPL", "LGPL", "MPL", "CDDL"]
     },
     {
         type: "input",
@@ -65,19 +73,19 @@ const questions = [{
     {
         type: "input",
         name: "author",
-        message: "Who is/are the author(s) of this project?"
+        message: "Who is/are the author(s) of the project?"
     },
     {
         type: "input",
         name: "questions",
-        message: "For questions, please contact:"
+        message: "For questions or issues, please contact:"
     },
     {
         type: "input",
         name: "username",
         message: "What is your GitHub username?"
-    },
-    {
+    }, 
+    { 
         type: "input",
         name: "email",
         message: "What is your email?"
@@ -85,12 +93,26 @@ const questions = [{
 
 ];
 
+module.exports = {
+    questions:questions,
+};
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName + ".md", data, function (error){
+        if (error) {
+            console.log(error)
+        }
+
+        console.log("Your README file is generated!")
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {
+async function init() {
+    const info = await inquirer.prompt(questions);
+    writeToFile("README", generateMarkdown(info));
     
 }
 
