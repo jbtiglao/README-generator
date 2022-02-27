@@ -1,4 +1,6 @@
-# README Generator
+# 09 Node.js Homework: Professional README Generator
+
+
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -6,23 +8,27 @@
   ## Description
 
   A command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+  
 
   ### Video
   
-  
   <img width="1078" alt="screenshot6_demo" src="https://user-images.githubusercontent.com/94569484/155876889-3dd0f5fe-331a-4d4e-9e03-c4ba4f8e9271.png">
-  [demo-video](/images/screenshot6_demo.png)
-  
-  The [walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
-  (Note: While testing the video and Screencastify app, I found that the video is clearer when downloaded and viewed locally, than when played directly on Screencastify.)
+  Below is the link to the walk-through video demonstrating the application's functionalities:
+  
+  [Watch or download the demonstration video here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
+
+  (Note: While testing the video and Screencastify app, the author has found that the video is clearer when downloaded and viewed locally, than when played directly on Screencastify.)
+  
   
    ### Pre-Installation Guidelines
+   
   1. Before installing any npm dependencies, a `.gitignore` file was created. The file includes `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
   2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
   
   ---
+  
   ## Table of Contents
   1. [Title](#title)
   2. [Description](#description)
@@ -36,6 +42,7 @@
   10. [Questions](#questions)
   
   ---
+  
   ## Installation
   Clone my repository on GitHub:
 
@@ -44,8 +51,9 @@ https://github.com/jbtiglao/readme-generator
 ```
 
   ---
+  
   ## Usage
-  Please see the walk-through video above, as well as the following instructions and screenshots (viewed through links).
+  Please see the walk-through video above, as well as the following instructions and screenshots.
 
   ### Features
  
@@ -63,10 +71,10 @@ https://github.com/jbtiglao/readme-generator
   - Project Title.
   - Description, Installation, Usage, Contributing, and Tests.
   - License, which when selected from the list, returns a license badge placed on top of the README file, near the project title. The badge links to a webpage containing information about the license and takes the user to the said webpage when clicked. Aside from the license badge on top, a notice about the license used by the application is also included on the License section. 
-  - Questions, which includes instructions on how to reach the author with additional questions or issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
+  - Questions section, which includes instructions on how to reach the author for additional questions or reporting issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
   - 
-
-<img width="1411" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155876356-833ab0cb-db69-4af1-95a3-28368292fe87.png">
+  
+<img width="1437" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155878190-7e5f0b72-65ac-4e1f-bd75-28bb8fc6d0c2.png">
 
 [prompts](/images/screenshot2_prompts.png/)
  
@@ -87,6 +95,7 @@ https://github.com/jbtiglao/readme-generator
 [questions](/images/screenshot5_questions.png/)
   
   ---
+  
   ## License
   License used for this project - MIT
   
@@ -95,12 +104,14 @@ https://github.com/jbtiglao/readme-generator
   - [Choose a License](https://choosealicense.com/)
 
   ---
+  
   ## Contributing
   To contribute to this application: 
   - Submit a pull request.
   - Your new features will be merged after review and approval.
 
   ---
+  
   ## Tests
   The functionalities of this project were tested manually, by opening the application on the integrated terminal and entering 
   ``` 
@@ -113,6 +124,7 @@ https://github.com/jbtiglao/readme-generator
   [Test 1](/sample-readme/Example-README.md)
 
   ---
+  
   ## Credits
   The following people/resources were consulted and/or utilized in the development of this application:
   - Unit 9, Node.js reading materials and internet resources, UCI Bootcamp.
@@ -123,10 +135,12 @@ https://github.com/jbtiglao/readme-generator
   - [Apache](https://www.apache.org/licenses/LICENSE-2.0)
 
   ---
+  
   ## Author
   Jane Tiglao
 
   ---
+  
   ## Questions
   For questions or issues, please contact: 
   - Jane Tiglao 
