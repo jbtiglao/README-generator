@@ -8,13 +8,12 @@
   A command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
   ### Video
-
-<img width="1412" alt="screenshot1_readme_gen" src="https://user-images.githubusercontent.com/94569484/155876281-82830531-6af8-4fff-9645-cf8fc7031c0f.png">
-
-[readme-generator](/images/screenshot1_readme_gen.png/)
-
-
-  [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
+  
+  
+  <img width="1078" alt="screenshot6_demo" src="https://user-images.githubusercontent.com/94569484/155876889-3dd0f5fe-331a-4d4e-9e03-c4ba4f8e9271.png">
+  [demo-video](/images/screenshot6_demo.png)
+  
+  The [walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
   (Note: While testing the video and Screencastify app, I found that the video is clearer when downloaded and viewed locally, than when played directly on Screencastify.)
   
