@@ -15,7 +15,11 @@
   [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
   (Note: While testing the video and Screencastify appy, I found that the video is clearer when downloaded then viewed locally, than when played directly on Screencastify.)
+  
+   ### Pre-Installation Guidelines
+  1. Before installing any npm dependencies, a `.gitignore` file was created. The file include `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
+  2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
   ---
   ## Table of Contents
   1. [Title](#title)
@@ -36,10 +40,7 @@
 ```
 https://github.com/jbtiglao/readme-generator
 ```
-  ### Guidelines
-  1. Before installing any npm dependencies, a `.gitignore` file was created. The file include `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
-  2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
   ---
   ## Usage
   Please see the walk-through video above, as well as the following instructions and screenshots.
