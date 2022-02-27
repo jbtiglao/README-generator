@@ -9,7 +9,7 @@
 
   ### Video
 
-  [readme_generator](/images/screenshot1_readme_gen.png)
+  [readme_generator](./images/screenshot1_readme_gen.png)
 
 
   [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
