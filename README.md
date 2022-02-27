@@ -11,6 +11,7 @@
 
   [readme_generator](/images/screenshot1_readme_gen.png)
 
+<img width="1412" alt="screenshot1_readme_gen" src="https://user-images.githubusercontent.com/94569484/155876281-82830531-6af8-4fff-9645-cf8fc7031c0f.png">
 
   [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
