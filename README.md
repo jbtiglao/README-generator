@@ -14,12 +14,13 @@
 
   [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
-  (Note: While testing the video and Screencastify appy, I found that the video is clearer when downloaded then viewed locally, than when played directly on Screencastify.)
+  (Note: While testing the video and Screencastify app, I found that the video is clearer when downloaded and viewed locally, than when played directly on Screencastify.)
   
    ### Pre-Installation Guidelines
   1. Before installing any npm dependencies, a `.gitignore` file was created. The file includes `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
   2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
+  3. 
   ---
   ## Table of Contents
   1. [Title](#title)
@@ -43,7 +44,7 @@ https://github.com/jbtiglao/readme-generator
 
   ---
   ## Usage
-  Please see the walk-through video above, as well as the following instructions and screenshots.
+  Please see the walk-through video above, as well as the following instructions and screenshots (viewed through links).
 
   ### Features
  
@@ -54,10 +55,10 @@ https://github.com/jbtiglao/readme-generator
 
   [readme-generator](/images/screenshot1_readme_gen.png)
 
-  2. Prompts about the following information that appear on the terminal. The information the user enters will are added to its corresponding sections on the README. They are the following:
+  2. Prompts about the project title, description, installation guidelines, usage instructions, usage information, and tests appear on the terminal. The information the user enters as a response to these prompts are added to the corresponding sections on the README. They are the following:
   - Project Title.
-  - Description, installation instructions, usage information, contribution guidelines, and test instructions.
-  - License which returns a license badge on top of the README near the title and a notice about the license on the License section. Clicking the license badge will also take the user to the webpage containing information about the particular license.
+  - Description, Installation, Usage, Contributing, and Tests.
+  - License, which when selected from the list, returns a license badge placed on top of the README file, near the project title. The badge links to a webpage containing information about the license and takes the user to the said webpage when clicked. Aside from the license badge on top, a notice about the license used by the application is also included on the License section. 
   - Questions, which includes instructions on how to reach the author with additional questions or issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
 
   [prompts](/images/screenshot2_prompts.png)
@@ -66,7 +67,7 @@ https://github.com/jbtiglao/readme-generator
  
   3. A Table of Contents containing sections of the README. when the sections are clicked, the user is taken to the particular section containing the information the author entered about the app.
 
-  Here is a side-by-side comparison of the raw generated README file and as previewed on VS Code:
+  4. Here is a side-by-side comparison of the raw generated README file and as previewed on VS Code:
 
   [table_of_contents](/images/screenshot3_toc.png)
 
@@ -87,7 +88,7 @@ https://github.com/jbtiglao/readme-generator
   ## Contributing
   To contribute to this application: 
   - Submit a pull request.
-  - Your new features will be merged after approval and review.
+  - Your new features will be merged after review and approval.
 
   ---
   ## Tests
@@ -95,7 +96,7 @@ https://github.com/jbtiglao/readme-generator
   ``` 
   node index.js
   ```
-  and responding to the series of prompts until a README file is generated.
+  then responding to the series of prompts until a README file is generated.
 
   Below is a sample of a README file from such test:
 
