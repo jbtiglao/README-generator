@@ -9,9 +9,10 @@
 
   ### Video
 
-  [readme_generator](/images/screenshot1_readme_gen.png)
-
 <img width="1412" alt="screenshot1_readme_gen" src="https://user-images.githubusercontent.com/94569484/155876281-82830531-6af8-4fff-9645-cf8fc7031c0f.png">
+
+[readme-generator](/images/screenshot1_readme_gen.png/)
+
 
   [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
@@ -21,7 +22,7 @@
   1. Before installing any npm dependencies, a `.gitignore` file was created. The file includes `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
   2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
-  3. 
+  
   ---
   ## Table of Contents
   1. [Title](#title)
@@ -53,29 +54,38 @@ https://github.com/jbtiglao/readme-generator
   ```
   node index.js
   ```
+  
+<img width="1412" alt="screenshot1_readme_gen" src="https://user-images.githubusercontent.com/94569484/155876345-afb67a30-ea5a-471c-8e5f-fa11d4f93f13.png">
 
-  [readme-generator](/images/screenshot1_readme_gen.png)
+[readme-generator](/images/screenshot1_readme_gen.png/)
+
 
   2. Prompts about the project title, description, installation guidelines, usage instructions, usage information, and tests appear on the terminal. The information the user enters as a response to these prompts are added to the corresponding sections on the README. They are the following:
   - Project Title.
   - Description, Installation, Usage, Contributing, and Tests.
   - License, which when selected from the list, returns a license badge placed on top of the README file, near the project title. The badge links to a webpage containing information about the license and takes the user to the said webpage when clicked. Aside from the license badge on top, a notice about the license used by the application is also included on the License section. 
   - Questions, which includes instructions on how to reach the author with additional questions or issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
+  - 
 
-  [prompts](/images/screenshot2_prompts.png)
+<img width="1411" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155876356-833ab0cb-db69-4af1-95a3-28368292fe87.png">
 
-
+[prompts](/images/screenshot2_prompts.png/)
  
   3. A Table of Contents containing sections of the README. when the sections are clicked, the user is taken to the particular section containing the information the author entered about the app.
 
   4. Here is a side-by-side comparison of the raw generated README file and as previewed on VS Code:
 
-  [table_of_contents](/images/screenshot3_toc.png)
+<img width="1407" alt="screenshot3_toc" src="https://user-images.githubusercontent.com/94569484/155876371-4d7b8c9f-4f4d-4c1b-8de8-3fbccdef30ef.png">
 
-  [installation](/images/screenshots4_installation.png)
+[table-of-contents](/images/screenshot3_toc.png/)
 
-  [questions](/images/screenshot5_questions.png)
+<img width="1409" alt="screenshots4_installation" src="https://user-images.githubusercontent.com/94569484/155876380-2dcf78bd-f59f-4d6e-b1ff-c6b304d5576c.png">
 
+[installation](/images/screenshot4_installation.png/)
+
+<img width="1411" alt="screenshot5_questions" src="https://user-images.githubusercontent.com/94569484/155876390-5411a4a9-1f2e-447f-88ca-78028671ec3b.png">
+
+[questions](/images/screenshot5_questions.png/)
   
   ---
   ## License
