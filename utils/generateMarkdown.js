@@ -1,5 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
 
 let licenseBadge = '';
 
@@ -28,6 +30,7 @@ function renderLicense(data) {
 
 // TODO: Create a function to generate markdown for README
 // User input on the array of questions are added on the following README sections: Title, Description, Installation, Usage, Contributing, Tests, License, and Questions.
+// The badge for the selected license is added near the top of the README and a notice about the license appears on the License section.
 // When the links in the Table of Contents are clicked, the user is taken to the corresponding README section.
 
 function generateMarkdown(data) {
@@ -87,6 +90,7 @@ function generateMarkdown(data) {
 
   ---
   ## Credits
+  The following people/resources were consulted and/or utilized in the development of this application:
   ${data.credits}
 
   ---
