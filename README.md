@@ -8,20 +8,20 @@
   A command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
   ### Video
+  
+  
+  <img width="1078" alt="screenshot6_demo" src="https://user-images.githubusercontent.com/94569484/155876889-3dd0f5fe-331a-4d4e-9e03-c4ba4f8e9271.png">
+  [demo-video](/images/screenshot6_demo.png)
+  
+  The [walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
-  [readme_generator](/images/screenshot1_readme_gen.png)
-
-
-  [A walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
-
-  (Note: While testing the video and Screencastify appy, I found that the video is clearer when downloaded then viewed locally, than when played directly on Screencastify.)
-
-  ### Additional Guidelines
-  1. Before installing any npm dependencies, a `.gitignore` file was created. The file include `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
+  (Note: While testing the video and Screencastify app, I found that the video is clearer when downloaded and viewed locally, than when played directly on Screencastify.)
+  
+   ### Pre-Installation Guidelines
+  1. Before installing any npm dependencies, a `.gitignore` file was created. The file includes `node_modules/` and `.DS_Store/` so that the `node_modules` directory isn't tracked or uploaded to GitHub.
 
   2. The repository for this project includes a `package.json` with the required dependencies. This was created  by running `npm init` when the author first set up the project, before installing any dependencies.
   
-
   ---
   ## Table of Contents
   1. [Title](#title)
@@ -42,9 +42,10 @@
 ```
 https://github.com/jbtiglao/readme-generator
 ```
+
   ---
   ## Usage
-  Please see the walk-through video above, as well as the following instructions and screenshots.
+  Please see the walk-through video above, as well as the following instructions and screenshots (viewed through links).
 
   ### Features
  
@@ -52,29 +53,38 @@ https://github.com/jbtiglao/readme-generator
   ```
   node index.js
   ```
+  
+<img width="1412" alt="screenshot1_readme_gen" src="https://user-images.githubusercontent.com/94569484/155876345-afb67a30-ea5a-471c-8e5f-fa11d4f93f13.png">
 
-  [readme-generator](/images/screenshot1_readme_gen.png)
+[readme-generator](/images/screenshot1_readme_gen.png/)
 
-  2. Prompts about the following information that appear on the terminal. The information the user enters will are added to its corresponding sections on the README. They are the following:
+
+  2. Prompts about the project title, description, installation guidelines, usage instructions, usage information, and tests appear on the terminal. The information the user enters as a response to these prompts are added to the corresponding sections on the README. They are the following:
   - Project Title.
-  - Description, installation instructions, usage information, contribution guidelines, and test instructions.
-  - License which returns a license badge on top of the README near the title and a notice about the license on the License section. Clicking the license badge will also take the user to the webpage containing information about the particular license.
+  - Description, Installation, Usage, Contributing, and Tests.
+  - License, which when selected from the list, returns a license badge placed on top of the README file, near the project title. The badge links to a webpage containing information about the license and takes the user to the said webpage when clicked. Aside from the license badge on top, a notice about the license used by the application is also included on the License section. 
   - Questions, which includes instructions on how to reach the author with additional questions or issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
+  - 
 
-  [prompts](/images/screenshot2_prompts.png)
+<img width="1411" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155876356-833ab0cb-db69-4af1-95a3-28368292fe87.png">
 
-
+[prompts](/images/screenshot2_prompts.png/)
  
   3. A Table of Contents containing sections of the README. when the sections are clicked, the user is taken to the particular section containing the information the author entered about the app.
 
-  Here is a side-by-side comparison of the raw generated README file and as previewed on VS Code:
+  4. Here is a side-by-side comparison of the raw generated README file and as previewed on VS Code:
 
-  [table_of_contents](/images/screenshot3_toc.png)
+<img width="1407" alt="screenshot3_toc" src="https://user-images.githubusercontent.com/94569484/155876371-4d7b8c9f-4f4d-4c1b-8de8-3fbccdef30ef.png">
 
-  [installation](/images/screenshots4_installation.png)
+[table-of-contents](/images/screenshot3_toc.png/)
 
-  [questions](/images/screenshot5_questions.png)
+<img width="1409" alt="screenshots4_installation" src="https://user-images.githubusercontent.com/94569484/155876380-2dcf78bd-f59f-4d6e-b1ff-c6b304d5576c.png">
 
+[installation](/images/screenshot4_installation.png/)
+
+<img width="1411" alt="screenshot5_questions" src="https://user-images.githubusercontent.com/94569484/155876390-5411a4a9-1f2e-447f-88ca-78028671ec3b.png">
+
+[questions](/images/screenshot5_questions.png/)
   
   ---
   ## License
@@ -88,7 +98,7 @@ https://github.com/jbtiglao/readme-generator
   ## Contributing
   To contribute to this application: 
   - Submit a pull request.
-  - Your new features will be merged after approval and review.
+  - Your new features will be merged after review and approval.
 
   ---
   ## Tests
@@ -96,11 +106,11 @@ https://github.com/jbtiglao/readme-generator
   ``` 
   node index.js
   ```
-  and responding to the series of prompts until a README file is generated.
+  then responding to the series of prompts until a README file is generated.
 
   Below is a sample of a README file from such test:
 
-  [Test 1](./Example-README.md/sample-readme/)
+  [Test 1](/sample-readme/Example-README.md)
 
   ---
   ## Credits
