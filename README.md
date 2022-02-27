@@ -11,7 +11,7 @@
   
   
   <img width="1078" alt="screenshot6_demo" src="https://user-images.githubusercontent.com/94569484/155876889-3dd0f5fe-331a-4d4e-9e03-c4ba4f8e9271.png">
-  [demo-video](/images/screenshot6_demo.png)
+  [demo](./images/screenshot6_demo.png)
   
   The [walk-through video demonstrating the functionalities can be viewed and/or downloaded here.](https://drive.google.com/file/d/1YL6vFN1IsS-tO13Tdt6X1MRUBaci36Xl/view)
 
