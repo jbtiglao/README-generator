@@ -72,9 +72,9 @@ https://github.com/jbtiglao/readme-generator
   - Description, Installation, Usage, Contributing, and Tests.
   - License, which when selected from the list, returns a license badge placed on top of the README file, near the project title. The badge links to a webpage containing information about the license and takes the user to the said webpage when clicked. Aside from the license badge on top, a notice about the license used by the application is also included on the License section. 
   - Questions section, which includes instructions on how to reach the author for additional questions or reporting issues, as well as the author's email, GitHub name, and a link to his/her GitHub profile.
+  - 
   
-
-<img width="1411" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155876356-833ab0cb-db69-4af1-95a3-28368292fe87.png">
+<img width="1437" alt="screenshot2_prompts" src="https://user-images.githubusercontent.com/94569484/155878190-7e5f0b72-65ac-4e1f-bd75-28bb8fc6d0c2.png">
 
 [prompts](/images/screenshot2_prompts.png/)
  
