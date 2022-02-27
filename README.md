@@ -53,7 +53,7 @@ https://github.com/jbtiglao/readme-generator
   ---
   
   ## Usage
-  Please see the walk-through video above, as well as the following instructions and screenshots (viewed through links).
+  Please see the walk-through video above, as well as the following instructions and screenshots.
 
   ### Features
  
