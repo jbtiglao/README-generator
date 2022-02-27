@@ -2,12 +2,16 @@
   
   # 09 Node.js: Professional README Generator
 
-  A command-line application that dynamically generates a professionalo README.md file from a user's input using the Inquirer package.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  undefined
+  ---
+  ## Description
+
+  A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+
+
 
   [A deployed version can be viewed here.](https://github.com/jbtiglao/readme-generator)
-  
 
   ---
   ## Table of Contents
@@ -24,12 +28,12 @@
   
   ---
   ## Installation
-  Clone the files from my GitHub repository and open on Visual Studio Code.
+  Clone the files from my GitHub repository and open on Visual Code.
 
   
   ---
   ## Usage
-  Refer to instructions and screenshots below.
+  Please refer to the walk-through demonstration video, as well as the instructions and screenshots below.
 
   ---
   ## License
@@ -42,15 +46,15 @@
   ---
   ## Contributing
   To contribute to this application: 
-  Make a pull request. Your features will be merged after review and approval.
+  Submit a pull request. Your features will be merged after review and approval.
 
   ---
   ## Tests
-  Test 1, Test 2, Test 3
+  Test 1, Test 2, and Test 3.
 
   ---
   ## Credits
-  09 Node.js lectures and materials
+  Unit 9, Node.j lectures, internet resources, and reading materials, UCI Boot Camp.
 
   ---
   ## Author
@@ -63,6 +67,4 @@
   - Email: janeytiglao@gmail.com
   - GitHub Username: jbtiglao
   - GitHub Profile: https://github.com/jbtiglao
-
-
 
